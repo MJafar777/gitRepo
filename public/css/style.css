@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+/* our home page started */
+.statusDev {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.statusOne {
+  width: 50%;
+  height: 100vh;
+  color: white;
+}
+
+.statusOne a {
+  display: block;
+  text-decoration: none;
+  margin: 5rem 2rem;
+  box-sizing: border-box;
+  transform: scale(4);
+}
+.statusTwo {
+  background-image: url(../img/dev.jpg);
+  width: 50%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.statusTwo:hover {
+  transform: scale(0.99);
+  transition: all 2s;
+  border-radius: 2rem;
+}
+.userName {
+  font-size: 3rem;
+  margin: 2rem;
+}
+.gridHome {
+  display: flex;
+  align-items: center;
+}
+.txtUser {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+.lorem {
+  font-size: 2rem;
+  margin-top: 5rem;
+  width: 80%;
+}
+.btn {
+  width: 14rem;
+  font-size: 2rem;
+  padding: 0.5rem 0;
+}
+.btnone {
+  background-color: white;
+  border: none;
+  color: black;
+}
+.btnTwo {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+}
+.btnone:active,
+.btnTwo:active {
+  transform: scale(1.03);
+}
+.btnUser {
+  display: flex;
+  width: 40%;
+  margin: 2rem;
+  justify-content: space-between;
+}
+.txtUser1 {
+  margin-top: 30rem;
+}
+.info {
+  margin-left: 5rem;
+}
+.icon {
+  color: white;
+}
+/* our home page finished */
+
+/* our menu started */
+
+.Menu {
+  width: 12rem;
+  background-color: rgb(255, 255, 255);
+  height: 5rem;
+  position: absolute;
+  right: 0;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 12;
+}
+.circle {
+  background-image: url(../img/8665240_circle_half_stroke_icon.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 4rem;
+  height: 4rem;
+}
+.menu {
+  background-image: url(../img/4781852_burger_line_list_menu_nav_icon.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 4rem;
+  height: 4rem;
+}
+.circle:active,
+.menu:active {
+  transform: scale(1.03);
+}
+.onOff {
+  background-color: black;
+}
+.MenuCard {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+.menulinks {
+  padding-top: 10rem;
+}
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  margin-top: 2rem;
+  text-decoration: none;
+}
